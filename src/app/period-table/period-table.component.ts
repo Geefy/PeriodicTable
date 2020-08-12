@@ -1,5 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import { JsonConvert, OperationMode, ValueCheckingMode } from "json2typescript";
 import { Element } from "./Element";
 import Elements from './elementData.json';
 
@@ -22,8 +21,8 @@ export class PeriodTableComponent implements OnInit {
         this.elementsJson[i].category,
         this.elementsJson[i].number,
         this.elementsJson[i].symbol,
-        this.elementsJson[i].xpos,
-        this.elementsJson[i].ypos
+        this.elementsJson[i].xpos -1,
+        this.elementsJson[i].ypos -1
       );
       this.elements.push(tempObj);
     }
