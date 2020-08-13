@@ -22,7 +22,7 @@ export class PeriodTableComponent implements OnInit {
         this.elementsJson[i].number,
         this.elementsJson[i].symbol,
         this.elementsJson[i].xpos -1,
-        this.elementsJson[i].ypos -1
+        this.elementsJson[i].ypos - 1
       );
       this.elements.push(tempObj);
     }

@@ -4,11 +4,13 @@ import { NgModule } from '@angular/core';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { PeriodTableComponent } from './period-table/period-table.component';
+import { ElementComponent } from './element/element.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    PeriodTableComponent
+    PeriodTableComponent,
+    ElementComponent
   ],
   imports: [
     BrowserModule,

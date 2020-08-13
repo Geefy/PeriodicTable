@@ -1,0 +1,46 @@
+div {
+  width: 100px;
+  height: 100px;
+  border: 2px solid black;
+  margin: 3px;
+  text-align: center;
+}
+
+.nonmetal{
+    background-color: blue;
+}
+.symbol{
+    font-weight: bolder;
+    font-size: 30px;
+    text-align:center;
+}
+.number{
+    margin-right:98%;
+}
+.noble-gas{
+    background-color: red;
+}
+.transition-metal{
+    background-color:deepskyblue;
+}
+.alkali-metal{
+    background-color: purple;
+}
+.alkaline-earth-metal{
+    background-color: mediumvioletred;
+}
+.metalloid{
+    background-color: green;
+}
+.post-transition-metal {
+  background-color: orange;
+}
+.lanthanide{
+   background-color: yellow;
+}
+.actinide{
+    background-color:lawngreen;
+}
+.unknown-metal{
+    background-color: darkgoldenrod;
+}
