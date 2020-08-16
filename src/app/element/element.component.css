@@ -9,14 +9,6 @@ div {
 .nonmetal{
     background-color: blue;
 }
-.symbol{
-    font-weight: bolder;
-    font-size: 30px;
-    text-align:center;
-}
-.number{
-    margin-right:98%;
-}
 .noble-gas{
     background-color: red;
 }
@@ -43,4 +35,13 @@ div {
 }
 .unknown-metal{
     background-color: darkgoldenrod;
+}
+
+.symbol{
+    font-weight: bolder;
+    font-size: 30px;
+    text-align:center;
+}
+.number{
+    margin-right:98%;
 }

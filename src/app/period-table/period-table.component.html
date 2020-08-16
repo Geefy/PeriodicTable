@@ -1,5 +1,22 @@
 <div *ngFor="let element of elements">
-  <app-element [Element]="element">
+  <div style="position:absolute" [style.top.px]="element.ypos * 110" [style.left.px]="element.xpos * 110">
+    <app-element [Element]="element">
 
-  </app-element>
+    </app-element>
+  </div>
 </div>
+<div *ngFor="let element of elementsSpecial">
+  <div style="position:absolute" [style.top.px]="element.ypos * 120" [style.left.px]="element.xpos * 110">
+    <app-element [Element]="element">
+
+    </app-element>
+  </div>
+</div>
+<div *ngFor="let category of elementsCategory">
+  <div style="position:absolute" [style.top.px]="category.ypos * 120" [style.left.px]="category.xpos * 110">
+    <app-category [Category]="category">
+
+    </app-category>
+  </div>
+</div>
+

@@ -1,0 +1,13 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\src",
+    "\\src\\app",
+    "\\src\\app\\category",
+    "\\src\\app\\element",
+    "\\src\\app\\period-table",
+    "\\src\\assets"
+  ],
+  "SelectedNode": "\\src\\app\\category\\category.component.css",
+  "PreviewInSolutionExplorer": false
+}

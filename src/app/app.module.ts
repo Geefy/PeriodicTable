@@ -5,12 +5,14 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { PeriodTableComponent } from './period-table/period-table.component';
 import { ElementComponent } from './element/element.component';
+import { CategoryComponent } from './category/category.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     PeriodTableComponent,
-    ElementComponent
+    ElementComponent,
+    CategoryComponent
   ],
   imports: [
     BrowserModule,
